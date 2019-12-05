@@ -1,5 +1,4 @@
 ---
-title:
 feature_text: "## Sharing\n"
 layout: blog
 ---
