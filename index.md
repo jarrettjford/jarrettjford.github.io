@@ -1,5 +1,5 @@
 ---
-title: a
+title: index
 feature_text: "## Sharing\n"
 layout: page
 ---
