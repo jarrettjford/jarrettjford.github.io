@@ -46,12 +46,9 @@
   src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlNV_2ngZ8dMf8fLgjYEouxg.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
-#player {
-    -webkit-filter: blur(1px);
-    -moz-filter: blur(1px);
-    -o-filter: blur(1px);
-    -ms-filter: blur(1px);
-    filter: blur(1px);
+html {
+  background:  url(http://upload.wikimedia.org/wikipedia/commons/d/dd/Muybridge_race_horse_animated.gif) no-repeat center center fixed;
+  background-size: cover;
 }
 form {
    margin-left:auto;
@@ -93,33 +90,33 @@ topp {
 position: relative;
 bottom: 200;
 }
-#info { 
-    height: 60px; 
-    position: fixed; 
+#info {
+    height: 60px;
+    position: fixed;
 	left: 0%;
     bottom:0%;
-    width:100%; 
-    background-color: #393838;  
+    width:100%;
+    background-color: #393838;
     opacity: 1;
 }
-#info2 { 
-    height: 60px; 
-    position: fixed; 
+#info2 {
+    height: 60px;
+    position: fixed;
     bottom: 99%;
-    width:100%; 
-    background-color: #393838; 
+    width:100%;
+    background-color: #393838;
     opacity: 1;
 }
-.emotion { 
+.emotion {
     font-size: 200%;
-	position: fixed; 
-    bottom: 73.5%; 
+	position: fixed;
+    bottom: 73.5%;
 	left: 44.5%
 }
-.emotion2 { 
+.emotion2 {
     font-size: 200%;
-	position: fixed; 
-    bottom: 73.5%; 
+	position: fixed;
+    bottom: 73.5%;
 	left: 53%
 }
 .overlay{
@@ -184,12 +181,12 @@ right: 46.4%;
     font-family: krinkes;
 	  font-style: normal;
     src: url(krinkes.ttf);
-} 
-.steamprofile{ 
-    position: relative; 
-    height: 190px; 
-    width: 190px; 
-    background-color: #53A4C4; 
+}
+.steamprofile{
+    position: relative;
+    height: 190px;
+    width: 190px;
+    background-color: #53A4C4;
 }
 #steamsprofile{
     position: relative;
