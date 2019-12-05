@@ -1,13 +1,23 @@
-# Set theme
-remote_theme: daviddarnes/alembic
+---
+title: Creative Dump
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+    description: My thoughts and ideas
+    feature_text: 'Welcome to my blog
 
-# File excludes
+'
+    feature_image: ''
+  uploads:
+    title: Uploads
+    output: true
+remote_theme: daviddarnes/alembic
 exclude:
 - README.md
 - Gemfile
 - Gemfile.lock
-
-# Set plugins
 plugins:
 - jekyll-sitemap
 - jekyll-mentions
@@ -18,34 +28,14 @@ plugins:
 - jekyll-feed
 - jemoji
 - jekyll-remote-theme
-
-# Site settings
-url: 'https://mydomain.com'
+url: https://mydomain.com
 baseurl: ''
-title: 'Creative Dump'
 permalink: pretty
-
-# Pagination
 paginate: 5
 paginate_path: blog/page:num
-
-# Header nav
 navigation_header:
 - title: Contact
-  url: /contact/
-
-
-# Footer nav
+  url: "/contact/"
 navigation_footer:
 - title: Back to top
   url: "#top"
-
-# Collections
-collections:
-  posts:
-    title: Posts
-    output: true
-    description: "My thoughts and ideas"
-    feature_text: |
-      Welcome to my blog
-    feature_image: ""

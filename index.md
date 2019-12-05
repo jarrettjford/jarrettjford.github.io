@@ -1,7 +1,6 @@
 ---
 layout: page
-feature_text: |
-  ## Sharing
+feature_text: "## Sharing\n"
 ---
 
 ryan gay
